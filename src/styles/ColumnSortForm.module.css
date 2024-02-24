@@ -1,0 +1,110 @@
+.container {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+  width: 40%;
+}
+
+.sortLabel {
+  color: #aeaeae;
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.sortLabel select {
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: 1px solid white;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  margin-top: 8px;
+  padding: 3px 0;
+}
+
+.sortLabel select:focus {
+  outline: 1px groove #e7e6e9;
+}
+
+.sortLabel option {
+  background-color: rgba(2, 2, 2, 0.562);
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 5px 0;
+}
+
+.radios {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  gap: 15px;
+  line-height: 18px;
+}
+
+.radios input {
+  margin-right: 10px;
+}
+
+.radios input:after {
+  background-color: white;
+  border: 2px solid #919191;
+  border-radius: 15px;
+  content: '';
+  display: inline-block;
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}
+
+.radios input:checked:after {
+  background-color: yellow;
+  border: 2px solid #919191;
+  border-radius: 15px;
+  content: '';
+  display: inline-block;
+  height: px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}
+
+.container button {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid yellow;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: yellow;
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  padding: 25px 20px;
+}
+
+.container button:hover {
+
+  /* stylelint-disable-next-line max-line-length */
+  box-shadow: 0 4px 4px -1px rgba(190, 180, 30, 0.507) , 0 4px 4px -1px rgba(190, 180, 30, 0.507);
+  filter: brightness(100%);
+}

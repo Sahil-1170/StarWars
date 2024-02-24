@@ -1,0 +1,15 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.container h1 {
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 20px;
+}

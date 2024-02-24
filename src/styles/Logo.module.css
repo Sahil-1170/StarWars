@@ -1,0 +1,20 @@
+.graphics {
+  height: 820px;
+}
+
+.logo {
+  position: absolute;
+  top: 130px;
+  z-index: 1;
+}
+
+.title {
+  color: whitesmoke;
+
+  /* stylelint-disable-next-line font-family-name-quotes */
+  font-family: 'Russo One' , sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 345px;
+  z-index: 1;
+}

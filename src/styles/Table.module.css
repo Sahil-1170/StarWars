@@ -1,0 +1,32 @@
+.container {
+  height: 440px;
+  margin: 8px;
+  overflow: auto;
+  width: 100%;
+}
+
+.container table {
+  border-collapse: collapse;
+  color: white;
+  width: 100%;
+}
+
+.container th {
+  background-color: #2e3035;
+  border-right: 1px solid #828282;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 20px 12px;
+  position: sticky;
+  top: 0;
+}
+
+.container td {
+  border-bottom: 1px solid #828282;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 12px;
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+.container {
+  align-items: flex-start;
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.list div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list span {
+  color: #aeaeae;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  margin-right: 10px;
+}
+
+.list button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: rgb(252, 28, 77);
+  cursor: pointer;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.remove {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgb(252, 28, 77);
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  color: rgb(252, 28, 77);
+  cursor: pointer;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 15px 20px;
+}
+
+.remove:hover {
+
+  /* stylelint-disable-next-line max-line-length */
+  box-shadow: 0 4px 4px -1px rgba(190, 30, 70, 0.507) , 0 4px 4px -1px rgba(190, 30, 70, 0.507);
+  filter: brightness(100%);
+}
